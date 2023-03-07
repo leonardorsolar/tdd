@@ -1,4 +1,4 @@
-export default class Calculator {
+export default class FizzBuzz {
     getRandonNum(): number {
         const num: number = Math.floor(Math.random() * 100);
         return num;
