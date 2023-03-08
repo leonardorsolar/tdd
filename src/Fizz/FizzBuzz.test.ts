@@ -1,9 +1,3 @@
-// Escreva uma função que pegue números de 1 a 100
-// e os exiba como uma string, mas para múltiplos de
-// três ela retorna “Fizz” em vez do número, e para
-// múltiplos de cinco ela retorna “Buzz”. Para números
-// múltiplos de três e cinco, ele retorna “FizzBuzz”.
-
 import FizzBuzz from './FizzBuzz';
 
 describe('“FizzBuzz”', () => {
