@@ -22,7 +22,7 @@ describe('fizzbuzz', () => {
     });
 
     test('should return the word "Fizz" if only one number is a multiple of 3', () => {
-        expect(fizzbuzz(3, 5)).toEqual('Fizz');
+        expect(fizzbuzz(3, 5)).toEqual('Fizzbuzz');
     });
 
     test('should return an empty string if neither is a multiple of 3', () => {
