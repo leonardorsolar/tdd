@@ -36,7 +36,7 @@ describe('“FizzBuzz”', () => {
     const name = calculador.multiples(num);
     console.log(name);
     if (num % 3 == 0 && num % 5 == 0) {
-      expect(name).toBe('“FizzBuzz”');
+      expect(name).toBe('FizzBuzz');
     } else if (num % 3 == 0) {
       expect(name).toBe('Fizz');
     } else if (num % 5 == 0) {
